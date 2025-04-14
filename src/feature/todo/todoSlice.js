@@ -20,6 +20,11 @@ export const todoSlice = createSlice({
         removeTodo: (state, action) => { //data send krna btayega
             state.todos = state.todos.filter((todo) => todo.id !== action.payload )
         },
+        // updateTodo: (state, action) => {
+        //     const { id, updatedText } = action.payload;
+        //     state.todos = state.todos.map((todo) => todo.id === id ? { ...todo, text: updatedText } : todo)
+        // },
+        
     }
 })
 //store ke liye he reducers and ye sb kra
