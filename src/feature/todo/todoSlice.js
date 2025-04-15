@@ -29,4 +29,4 @@ export const todoSlice = createSlice({
 //store ke liye he reducers and ye sb kra
 export const {addTodo, removeTodo} = todoSlice.actions
 
-export default todoSlice.reducer
+export default todoSlice.reducer // feature ko slice bolte h
