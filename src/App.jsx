@@ -9,11 +9,10 @@ function App() {
   
   return (
     <>
-      <h1 className=' text-zinc-950 flex text-center justify-center'> Let's Learn about redux toolkit</h1>
+      <h1 className=' text-zinc-400 flex text-center justify-center mt-9 text-3xl'> Redux toolkit</h1>
       <AddTodo />
       <Todos />
     </>
   )
 }
-
 export default App

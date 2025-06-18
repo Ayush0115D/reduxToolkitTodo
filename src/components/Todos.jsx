@@ -8,11 +8,13 @@ function Todos() {
 
   return (
     <>
-    <div>Todos</div>
-    <ul className="list-none">
+     <div className="flex justify-center mt-10">
+      <div className="w-full max-w-lg">
+    <h2 className="text-white text-2xl font-semibold mb-4 ">Todos</h2>
+    <ul className="list-none space-y-3">
         {todos.map((todo) => (
           <li
-            className="mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded"
+            className="mt-4 flex justify-between items-center bg-zinc-800 px-4 py-2 rounded shadow-sm"
             key={todo.id}
           >
             <div className='text-white'>{todo.text}</div>
@@ -38,6 +40,8 @@ function Todos() {
           </li>
         ))}
       </ul>
+      </div>
+      </div>
     </>
   )
 }
