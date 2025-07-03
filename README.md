@@ -18,7 +18,7 @@ A simple yet powerful **Todo List** application built with **React**, **Redux To
 
 | Layer      | Tools & Libraries                                  |
 |------------|----------------------------------------------------|
-| **Frontend** | React, Framer Motion, Styled Components (or CSS) |
+| **Frontend** | React, Tailwind CSS |
 | **State**    | Redux Toolkit (`createSlice`, `configureStore`) :contentReference[oaicite:1]{index=1} |
 | **Persistence** | Redux Persist (`localStorage`)    
 
