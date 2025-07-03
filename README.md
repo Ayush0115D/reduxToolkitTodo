@@ -1,12 +1,46 @@
-# React + Vite
+# 📝 Redux Toolkit Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet powerful **Todo List** application built with **React**, **Redux Toolkit**, and **Redux Persist** to manage, filter, and persist tasks in the browser.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧩 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add, toggle, and delete todos  
+- 🔁 Filter by **All**, **Active**, and **Completed**  
+- 💾 Persistent data via `localStorage` using **Redux Persist**  
+- ⚛️ Built with **React** and **Redux Toolkit** for scalable state management
+
+---
+
+## 🛠 Tech Stack
+
+| Layer      | Tools & Libraries                                  |
+|------------|----------------------------------------------------|
+| **Frontend** | React, Framer Motion, Styled Components (or CSS) |
+| **State**    | Redux Toolkit (`createSlice`, `configureStore`) :contentReference[oaicite:1]{index=1} |
+| **Persistence** | Redux Persist (`localStorage`)    
+
+
+---
+                        
+                        ## 🧱 Core Structure
+
+- `src/app/store.js` — configures Redux store using `configureStore`
+- `src/features/todo/todoSlice.js` — defines todos slice via `createSlice`
+- `src/features/todo/TodoApp.jsx` — Todo component with add, toggle, delete, and filter logic
+- `src/App.js` — wraps the app with `<Provider>` and configured store
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome! If you’d like to:
+
+- Fix bugs or add features
+- Improve styling or UX
+- Add tests or CI workflows
+
+…please open a PR or issue. I'll review it ASAP 🙂
+
